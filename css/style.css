@@ -38,6 +38,14 @@ p {
   margin-bottom: 1.5em;
 }
 
+.qg{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -800,7 +808,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px;
   background: #fff;
   background: #52d3aa;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: .9em;
   font-weight: 300;
   position: relative;
   -webkit-border-radius: 7px;
