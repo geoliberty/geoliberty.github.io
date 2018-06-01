@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -951,6 +951,40 @@ h1, h2, h3, h4, h5, h6 {
 	top:80px;
 	left:30px;
 	margin:0;
+}
+
+.btn-person{
+	width: 14em;
+}
+
+.ul-person{
+	list-style-type: none;
+	/* padding: 0px;
+	margin: 0px;
+	border: 0px; */
+	width: 6em;
+
+}
+
+.backtosection{
+	font-size: 0.7em;
+	position: relative;
+	/* left:50%; */
+	/* bottom:5px; */
+	z-index: 100;
+	margin:0;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.list-col{
+	border-left: 5px;
+	border-right: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+
 }
 
 .img-logo{

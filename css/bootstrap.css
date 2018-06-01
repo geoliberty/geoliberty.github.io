@@ -15,6 +15,10 @@ body {
   margin: 0;
 }
 
+.banner{
+	opacity: 0.5;
+}
+
 article,
 aside,
 details,
@@ -4678,6 +4682,7 @@ tbody.collapse.in {
 }
 
 .navbar-collapse {
+	/* opacity: 0.5; */
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
