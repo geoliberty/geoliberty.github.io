@@ -842,6 +842,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-testimonials .box-testimony .author {
   line-height: 20px;
+  /* z-index: 100; */
   color: black;
   font-size: 16px;
   margin-left: 20px;
@@ -966,12 +967,17 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.btn-heading{
+	opacity: 0.7;
+	background-color: Gold;
+}
+
 .backtosection{
 	font-size: 0.7em;
 	position: relative;
 	/* left:50%; */
 	/* bottom:5px; */
-	z-index: 100;
+	/* z-index: 100; */
 	margin:0;
 	text-align: center;
 	padding-bottom: 10px;
@@ -1477,5 +1483,44 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+.citation{
+	font-size: 0.7em;
+}
+
+.citation a{
+	color: inherit;
+	font-size: inherit;
+}
+
+.testimonials-menu{
+	padding-bottom: 40px;
+}
+
+/* .tooltipx {
+	color:black;
+	z-index: 10000;
+    position: relative;
+} */
+
+/* .tooltipx .tooltiptext {
+	z-index: 10000;
+    visibility: hidden;
+    width: 120px;
+	font-size: 0.7em;
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+} */
+
+/* .tooltipx:hover .tooltiptext {
+	z-index: 10000;
+    visibility: visible;
+} */
 
 /*# sourceMappingURL=style.css.map */
